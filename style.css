@@ -167,3 +167,42 @@ body {
     margin: 8px;
     padding: 8px;
 }
+
+.disclaimer-premium {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+}
+
+.disclaimer-premium .disclaimer-premium__title {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.disclaimer-premium button {
+    background-color: #fff;
+    border-radius: 40px;
+    border: 0;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 30px;
+}
+
+.disclaimer-premium button:hover {
+    transform: scale(1.1);
+}
